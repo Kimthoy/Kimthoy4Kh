@@ -107,6 +107,7 @@ Route::delete('/wishlist/remove/{id}', [WishlistController::class, 'removeFromWi
 
 
 use App\Http\Controllers\RatingController;
+use App\Http\Controllers\SampleController;
 
 Route::post('/ratings', [RatingController::class, 'store'])->name('ratings.store');
 
@@ -118,3 +119,7 @@ Route::post('/rating/store', [RatingController::class, 'store'])->name('rating.s
 Route::get('/about', function () {
     return view('home.about_form');
 })->name('about.form');
+
+
+// sample
+Route::get('/sample',[SampleController::class,'sample'])->name('sample.form');
