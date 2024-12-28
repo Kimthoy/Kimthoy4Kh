@@ -20,8 +20,8 @@
                 @foreach ($wishlists  as $wishlist)
                  
               <div class="col ">
-               <div class="card box_shadow" style="width: 16rem;">
-               <a href="#" ><img src="/img/{{$wishlist->product->image}}" class="card-img-top object-fit-fill" alt="...">  <span class="shadow p-3 bg-body-tertiary rounded text-black product_view ">View</span> </a>
+               <div class="box_shadow" style="width: 16rem;">
+              <img src="/img/{{$wishlist->product->image}}" class="card-img-top object-fit-fill" alt="...">  
                   <div class="card-body">
                     <h5 class="card-title text-center">{{ $wishlist->product->name }}</h5>
                     <p class="card-text text-truncate text-center" style="font-size: small;">{{$wishlist->product->description}}</p>
@@ -37,13 +37,13 @@
                   <form action="{{ route('wishlist.moveToCart') }}" method="POST" style="display: inline;">
                             @csrf
                             <input type="hidden" name="product_id" value="{{ $wishlist->product->id }}">
-                            <button type="submit" class="btn btn-success btn_wishlist">Move to Cart</button>
+                            <button type="submit" class="btn btn-success ">Move to Cart</button>
                         </form>
                         
                   <form action="{{ route('wishlist.remove', $wishlist->id) }}" method="POST" style="display: inline;">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="btn btn-danger btn_wishlist">Delete</button>
+                            <button type="submit" class="btn btn-danger ">Delete</button>
                         </form>
 
                       </div>

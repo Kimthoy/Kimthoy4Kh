@@ -7,9 +7,19 @@
       "default",
       {
         "ignore": [
-          "-webkit-text-size-adjust"
+          "-webkit-text-size-adjust",
+          "scrollbar-width",
+          "-ms-touch-action"
         ]
       }
     ]
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 126",
+    "not firefox <= 126",
+    "not safari <= 17.5",
+    "not ios_saf <= 17.5"
+  ]
 }

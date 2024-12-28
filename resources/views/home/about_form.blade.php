@@ -5,7 +5,7 @@
 <div class="container mt-5" style="background-image: url('/path/to/your/background-image.jpg'); background-size: cover; background-position: center; border-top-left-radius: 10px; border-top-right-radius: 10px;">
     <div class="row justify-content-center">
         <div class="col-md-10">
-            <div class="card shadow-sm" style="background-color: #f8f9fa; border-radius: 10px;">
+            <div class=" shadow-sm" style="background-color: #f8f9fa; border-radius: 10px;">
                 <div class="card-header text-center" style="background-image: url('/image/bg1.png'); background-size: cover; background-position: center; border-top-left-radius: 10px; border-top-right-radius: 10px;">
                     <h2 class="text-white p-3" style="background-color: rgba(0, 0, 0, 0.5); border-radius: 5px;">About Fashion4Kh</h2>
                 </div>

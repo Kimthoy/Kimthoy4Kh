@@ -14,7 +14,7 @@ General Info
  
 </p>
 <div class="collapse" id="collapseExample">
-  <div class="card card-body">
+  <div class="card-body">
   When are new items available?
 New arrival items in every Mon-Saturday, be sure to check regularly.
 
@@ -42,12 +42,12 @@ Some items you may find here but not at offline store
  
 </p>
 <div class="collapse" id="collapseExample2">
-  <div class="card card-body">
+  <div class="card-body">
  
 <ul class="how_do_ipay">
    <li> <b>How do I pay?</b></li><br>
    <li >We provide multiple payment options</li>
-   <li >1. Credit / Debit Card (Visa and Master Card)</li>
+   <li >1. Credit / Debit (Visa and Master Card)</li>
    <li >2. ABA Payway, Acleda Payway, Chipmong Bank Payway, .....</li>
    <li >3. Bank Transfer (TT)</li>
    <li >4.COD (Cash on Delivery)</li>
@@ -70,7 +70,7 @@ Some items you may find here but not at offline store
 </p>
 
  <div class="collapse" id="collapseExample3">
-  <div class="card card-body">
+  <div class="card-body">
  
   <ul class="how_do_ipay">
    <li> <b>What is the delivery option?</b></li><br>
@@ -105,7 +105,7 @@ Some items you may find here but not at offline store
  
 </p>
 <div class="collapse" id="collapseExample4">
-  <div class="card card-body">
+  <div class="card-body">
  
 <ul class="how_do_ipay">
    <li> <b>How do I know my order status?</b></li><br>
@@ -132,7 +132,7 @@ Some items you may find here but not at offline store
  
 </p>
 <div class="collapse" id="collapseExample5">
-  <div class="card card-body">
+  <div class="card-body">
  
 <ul class="how_do_ipay">
    <li> <b>What are the exchange options?</b></li><br>
@@ -171,7 +171,7 @@ Some items you may find here but not at offline store
  
 </p>
 <div class="collapse" id="collapseExample6">
-  <div class="card card-body">
+  <div class="card-body">
  
 <ul class="how_do_ipay">
    <li> <b>What are the refund options?</b></li><br>
@@ -182,7 +182,7 @@ Some items you may find here but not at offline store
             <li>1. Go to ZANDO App then "My Orders"</li>
             <li>2. Choose the order you want to refund</li>
             <li>3. Choose items</li>
-            <li>4. Choose a refund method (Credit Card or Bank Transfer)</li>
+            <li>4. Choose a refund method (Credit or Bank Transfer)</li>
             <li>5. Book refund</li>
       </ul>
    </li>
@@ -216,7 +216,7 @@ Some items you may find here but not at offline store
  
 </p>
 <div class="collapse" id="collapseExample7">
-  <div class="card card-body">
+  <div class="card-body">
  
 <ul class="how_do_ipay">
    <li> <b>Where can I make an order?</b></li><br>
@@ -249,7 +249,7 @@ Some items you may find here but not at offline store
  
 </p>
 <div class="collapse" id="collapseExample8">
-  <div class="card card-body">
+  <div class="card-body">
  
 <ul class="how_do_ipay">
    <li> <b>How do to choose the correct size for me?</b></li><br>
@@ -275,7 +275,7 @@ Some items you may find here but not at offline store
  
 </p>
 <div class="collapse" id="collapseExample9">
-  <div class="card card-body">
+  <div class="card-body">
  
 <ul class="how_do_ipay">
    <li>Live Chat: <a href="https://www.facebook.com/zandocambodia/">Facebook</a> , <a href="https://www.instagram.com/zandocambodia/">Instagram </a> or in Zando App</li>
@@ -307,7 +307,7 @@ Some items you may find here but not at offline store
  
 </p>
 <div class="collapse" id="collapseExample10">
-  <div class="card card-body">
+  <div class="card-body">
  
 <ul class="how_do_ipay">
    <li><b>Privacy Policy</b></li>

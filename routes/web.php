@@ -113,7 +113,7 @@ Route::post('/ratings', [RatingController::class, 'store'])->name('ratings.store
 
 
 // Add this to your routes/web.php
-Route::post('/rating/store', [RatingController::class, 'store'])->name('rating.store');
+Route::post('/rating/store', [RatingController::class, 'store'])->middleware(['auth', 'verified'])->name('rating.store');
 
 //about
 Route::get('/about', function () {

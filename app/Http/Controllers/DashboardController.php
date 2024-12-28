@@ -12,6 +12,12 @@ use App\Models\OrderItem;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\DB;
 
+use App\Mail\Mail;
+use App\Models\Comment;
+use App\Models\Reply_Comment;
+use Illuminate\Support\Facades\Mail as MailFacades;
+
+
 
 
 class DashboardController extends Controller
@@ -220,7 +226,10 @@ class DashboardController extends Controller
 public function stripePost(Request $request)
 {
     $cart = session()->get('cart');
-
+    $details=[
+        'title'=>'Customers purchased ',
+        'body'=>'New Customer has been checkout and purchased a product ! ',
+    ];
     $totalAmount = 0;
     foreach ($cart as $item) {
         $totalAmount += $item['price'] * $item['quantity'];
@@ -236,7 +245,7 @@ public function stripePost(Request $request)
     //======================
     $order = new Order();
     $order->user_id = Auth::user()->id;
-    $order->user_id = 1;
+    // $order->user_id = 1;
     $order->amount = $totalAmount;
     $order->save();
     foreach ($cart as $item) {
@@ -246,7 +255,9 @@ public function stripePost(Request $request)
         $orderItem->quantity = $item['quantity'];
         $orderItem->amount = $item['price'];
         $orderItem->save();
+        MailFacades::to('pheangtiger03@mail.com')->send(new Mail($details));
     }
+    
     session()->put('cart', []);
     return redirect()->back()->with('success', 'Payment successful!');
 }

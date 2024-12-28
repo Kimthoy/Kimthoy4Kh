@@ -17,7 +17,7 @@
     </div>
 
     <!-- Carousel Section -->
-    <div class="col-4 shadow p-3 mb-1 bg-body-tertiary rounded">
+    <div class="col-4 shadow p-3 mb-1 bg-body-white rounded">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500" data-bs-pause="hover" style="width: 300px; height: 200px;">
             <!-- Indicators -->
           
@@ -59,6 +59,8 @@
 
 
     <section>
+    
+
       <div>
          <div class="text-center p-3 mb-2 bg-body-secondary ">
 
@@ -68,7 +70,7 @@
          <div class="container text-center">
             <div class="row">
               <div class="col">
-               <div class="card box_shadow" style="width: 13rem;">
+               <div class=" box_shadow" style="width: 13rem;">
                   <img src="./img/LJ3_Sapphire__11722823597.png" class="card-img-top" alt="...">
                   <div class="card-body ">
                     <h5 class="card-title">LJ3_Sapphire</h5>
@@ -78,7 +80,7 @@
                 </div>
               </div>
               <div class="col">
-               <div class="card box_shadow" style="width: 13rem;">
+               <div class=" box_shadow" style="width: 13rem;">
                   <img src="./img/LJ3_Raspberry__11722823449.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">LJ3_Raspberry</h5>
@@ -88,7 +90,7 @@
                 </div>
               </div>
               <div class="col">
-               <div class="card box_shadow" style="width: 13rem;">
+               <div class=" box_shadow" style="width: 13rem;">
                   <img src="./img/LJ3_White__11722823886.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">LJ3_White</h5>
@@ -98,7 +100,7 @@
                 </div>
               </div>
               <div class="col">
-               <div class="card box_shadow" style="width: 13rem;">
+               <div class="box_shadow" style="width: 13rem;">
                   <img src="./img/LJ95_Sky__1_f1054bd8-e05d-4d01-b1722824801.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">LJ95_Sky</h5>
@@ -119,8 +121,8 @@
       </div>
       <div class="container text-center mt-5">
          <div class="row ">
-           <div class="col team_hover ">
-            <div class="card team" style="width: 12rem; height: 26rem;">
+           <div class="col ">
+            <div class=" team shadow p-3 bg-body-tertiary rounded" style="width: 12rem; height: 22rem;">
               <img src="our/nakhim1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-primary">Khim Nakhim</h5>
@@ -129,8 +131,8 @@
              
             </div>
            </div>
-           <div class="col team_hover">
-            <div class="card team" style="width: 12rem;height: 26rem;">
+           <div class="col">
+            <div class=" team shadow p-3 bg-body-tertiary rounded" style="width: 12rem;height: 22rem;">
               <img src="/our/rathanak.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-primary">Khoy Rathanak</h5>
@@ -139,8 +141,9 @@
               
             </div>
            </div>
-           <div class="col team_hover">
-            <div class="card team" style="width: 12rem;height: 26rem;">
+          
+           <div class="col">
+            <div class="team shadow p-3 bg-body-tertiary rounded" style="width: 12rem;height: 22rem;">
               <img src="/our/vitu.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-primary">Khim Vitu</h5>
@@ -150,8 +153,8 @@
              
             </div>
            </div>
-           <div class="col team_hover">
-            <div class="card team" style="width: 12rem; height: 26rem;">
+           <div class="col">
+            <div class=" team shadow p-3 bg-body-tertiary rounded" style="width: 12rem; height: 22rem;">
               <img src="/our/thoy.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-primary">Kim Thoy</h5>
@@ -188,36 +191,3 @@ function showSlides() {
 </script>
 @endsection
 
-<!-- <div class="slide_show">
-<div id="carouselExampleIndicators" class="carousel slide ">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner  rounded-4 ">
-    <div class="carousel-item active ">
-      <img src="./img/LJ3_Sapphire__11722823597.png" class="d-block w-100"  alt="...">
-    </div>
-    <div class="carousel-item ">
-      <img src="./img/LJ3_Raspberry__11722823449.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item ">
-      <img src="./img/LJ3_White__11722823886.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item ">
-      <img src=" ./img/LJ95_Sky__1_f1054bd8-e05d-4d01-b1722824801.png " class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span style="background-color: black;" class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span style="background-color: black;" class="carousel-control-next-icon " aria-hidden="true"></span>
-    <span class="visually-hidden ">Next</span>
-  </button>
-</div>
-
-</div> -->

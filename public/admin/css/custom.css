@@ -1,1 +1,21 @@
 /* your styles go here */
+
+.sidebar_admin{
+   background: rgb(112, 112, 112);
+   width: 13rem;
+ 
+}
+.style_ul > li> a{
+   padding-top: .5rem;
+   color: antiquewhite;
+   text-decoration: none;
+   padding: .6rem;
+}
+.style_ul > li:hover{
+   background: rgb(51, 49, 49);
+   cursor: pointer;
+}
+.style_ul > li>a>svg{
+   width: 22px;
+   margin-right: 5px;
+}
